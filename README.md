@@ -240,18 +240,6 @@ Possible next steps include:
 
 ---
 
-## 11. Student Project Note
-
-This repository is presented as a **student AI project** demonstrating:
-
-- dataset organization,
-- computer-vision experimentation,
-- model training and evaluation,
-- interpretation of confusion matrices,
-- and practical prediction on real road images.
-
-The emphasis is on documenting the workflow transparently and reproducibly rather than overstating the model's real-world readiness.
-
 ---
 
 ## Contact
