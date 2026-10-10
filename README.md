@@ -41,7 +41,8 @@ The dataset is organized into three classes:
 ### Example images
 
 <p align="center">
-  <img src="assets/dataset_samples.png" width="900" alt="Sample images from the three flood classes">
+  <img width="989" height="594" alt="image" src="https://github.com/user-attachments/assets/8ffaff3e-bb3b-40b7-b7e6-c4f4bf6b6eb5" />
+
 </p>
 
 The **full dataset is stored externally on Google Drive** to keep the GitHub repository lightweight:
@@ -51,46 +52,16 @@ The **full dataset is stored externally on Google Drive** to keep the GitHub rep
 > Note: The dataset itself is not duplicated in this repository.
 
 ---
-
-## 3. Repository Structure
-
-```text
-flood-classification/
-├── README.md
-├── .gitignore
-├── FLOODCLASSIFICATION.ipynb     # add the cleaned training notebook here
-├── video_predict.py              # add the video/image inference script here
-│
-├── assets/
-│   ├── dataset_samples.png
-│   ├── training_accuracy.png
-│   ├── training_loss.png
-│   ├── confusion_matrix.png
-│   └── prediction_example.png
-│
-├── data/
-│   └── README.md
-│
-├── notebooks/
-│   └── .gitkeep
-│
-├── src/
-│   └── .gitkeep
-│
-└── models/
-    └── .gitkeep
-```
-
 ---
 
-## 4. Training Behavior
+## 3. Training Behavior
 
 ### Accuracy
 
 The training accuracy increases steadily and reaches approximately **95%**, while validation accuracy stabilizes at around **89–90%**.
 
 <p align="center">
-  <img src="assets/training_accuracy.png" width="720" alt="Training and validation accuracy">
+  <img width="691" height="470" alt="image" src="https://github.com/user-attachments/assets/5dccc534-0d7d-4cee-9208-1771f7a9e424" />
 </p>
 
 ### Loss
@@ -99,17 +70,17 @@ Both training and validation loss decrease during training.
 The remaining gap between the curves suggests some overfitting, but the validation trend remains stable rather than diverging sharply.
 
 <p align="center">
-  <img src="assets/training_loss.png" width="720" alt="Training and validation loss">
+  <img width="691" height="470" alt="image" src="https://github.com/user-attachments/assets/fd5d03bf-14cd-4900-b3ef-309f564f4498" />
 </p>
 
 ---
 
-## 5. Evaluation
+## 4. Evaluation
 
 ### Confusion Matrix
 
 <p align="center">
-  <img src="assets/confusion_matrix.png" width="600" alt="Confusion matrix for the three flood classes">
+  <img width="606" height="455" alt="image" src="https://github.com/user-attachments/assets/4ecdf671-f558-4b54-af52-ddafdfe1cb48" />
 </p>
 
 From the displayed confusion matrix:
@@ -131,19 +102,19 @@ Most errors occur between **LOW FLOODED** and **HEAVY FLOODED**, which is reason
 
 ---
 
-## 6. Example Prediction
+## 5. Example Prediction
 
 The following unseen road image is predicted as:
 
 **LOW FLOODED — Confidence: 84.40%**
 
 <p align="center">
-  <img src="assets/prediction_example.png" width="650" alt="Example model prediction">
+  <img width="515" height="321" alt="image" src="https://github.com/user-attachments/assets/e72c8a32-ed4e-4fe1-8b16-cd91ca9a7460" />
 </p>
 
 ---
 
-## 7. Workflow
+## 6. Workflow
 
 A typical workflow for this project is:
 
@@ -177,7 +148,7 @@ video_predict.py
 
 ---
 
-## 8. How to Use This Repository
+## 7. How to Use This Repository
 
 ### Step 1 — Clone the repository
 
@@ -216,7 +187,7 @@ python video_predict.py
 
 ---
 
-## 9. Limitations
+## 8. Limitations
 
 This project is an image-based classification study and has several limitations:
 
@@ -227,7 +198,7 @@ This project is an image-based classification study and has several limitations:
 
 ---
 
-## 10. Future Improvements
+## 9. Future Improvements
 
 Possible next steps include:
 
@@ -244,6 +215,6 @@ Possible next steps include:
 
 ## Contact
 
-**Student:** _Add student name here_  
-**Email:** _Add contact email here_  
-**GitHub:** _Add GitHub profile here_
+**Student:** Nguyen Bao Ngan, Mai Nhat Truong, Tran Hung Phat
+**Email:** jasmine.nguyenbao@gmail.com
+
